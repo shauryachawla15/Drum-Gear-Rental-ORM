@@ -16,3 +16,13 @@ A custom Python ORM project for managing drum gear rentals. Includes core ORM en
 To run:
 ```bash
 python tests.py
+
+### 🛠️ Database Setup
+
+To connect to the MySQL database:
+
+1. Ensure MySQL is running locally.
+2. Update `dbconnectors.py` with your credentials.
+3. Run the schema SQL file:
+   ```bash
+   mysql -u your_username -p drum_rental_db < drum_rental.sql
